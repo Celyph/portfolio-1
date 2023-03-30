@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png");
+}
+
+/*START MEDIA QUERY*/
+@media screen and (min-width:500px) {
+    header {
+        align-items:end;
+    }
+}
+/*END MEDIA QUERY*
+
+
+/*START LINKS*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/*END LINKS*/
+
+
+/*START PARAGRAPH */
+p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*END PARAGRAPH*/
+
+
+/*START HEADERS*/
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #9b537f;
+    color: #ffffff;
+    padding: 40px;
+}
+
+
+.header nav {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    
+}
+
+h1{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 65px;
+}
+
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-bottom: 7px;
+    line-height: 25px;
+    color: #412f35;
+    width: 100%;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(to right, transparent, #684953 10%, transparent);
+    border-image-slice: 1;
+    text-align:center;
+  }
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 7px;
+    line-height: 25px;
+    color: #ffffff;
+    width: 100%;
+    text-align:center;
+}
+/*END HEADER ELEMENTS*/
+
+/*START IMAGE*/
+.image {
+    height: 25%;
+    width: 25%;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 15px 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+  }
+/*END IMAGE*/
+
+/*CONTENT BOX*/
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*END CONTENT BOX/*
+
+/*VISIBLE BOXES*/
+.boxes{
+    margin: 0 0 20px;
+    padding: 15px 20px;
+    flex-wrap: wrap; 
+    background-color: #c7c7c7;
+    text-align: center;
+    color: #afafaf;
+    width: 50%;
+    align-items: center;
+}
+/*END VISIBLE BOXES*/
+
+/*BOX IDS*/
+#about {
+    background-color: #b6b6b6;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size:15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow:auto;
+       }
+
+#work {
+    background-color: #b6b6b6;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size:15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow:auto;
+       }
+
+
+#contact {
+    background-color: #b6b6b6;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size:15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 30px;
+    overflow:auto;
+       }
+
+ #contact a:link {color: #9b598c;}
+ #contact a:visited { color: #582e4f; }
+ #contact a:hover { color: #b951a1; }
+ #contact a:active { color: #c26dae; }
+
+#resume {
+    background-color: #b6b6b6;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size:15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow:auto;
+       }
+/*BOX IDS*/
