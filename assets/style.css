@@ -116,7 +116,7 @@ img {
   }
 /*END IMAGE*/
 
-/*CONTENT BOX*/
+/*START CONTENT BOX*/
 .content {
     position: relative;
     width: 100%;
@@ -139,7 +139,7 @@ img {
 }
 /*END VISIBLE BOXES*/
 
-/*BOX IDS*/
+/*START BOX IDS*/
 #about {
     background-color: #b6b6b6;
     color: #ffffff;
@@ -160,6 +160,7 @@ img {
     overflow:auto;
        }
 
+#work img {flex-direction: row;}
 
 #contact {
     background-color: #b6b6b6;
@@ -172,10 +173,12 @@ img {
     overflow:auto;
        }
 
+/*LINK ATTRIBUTES*/
  #contact a:link {color: #9b598c;}
  #contact a:visited { color: #582e4f; }
  #contact a:hover { color: #b951a1; }
  #contact a:active { color: #c26dae; }
+ /*LINK ATTRIBUTES*/
 
 #resume {
     background-color: #b6b6b6;
@@ -186,4 +189,4 @@ img {
     font-family: 'Roboto Condensed', sans-serif;
     overflow:auto;
        }
-/*BOX IDS*/
+/* END BOX IDS*/
